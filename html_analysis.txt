@@ -1,0 +1,294 @@
+Total HTML length: 83422
+
+Saudi Arabia hrefs (11):
+  /de/hs-customs-tarif/saudi-arabia/
+  /es/hs-customs-tarif/saudi-arabia/
+  /fr/hs-customs-tarif/saudi-arabia/
+  /hi/hs-customs-tarif/saudi-arabia/
+  /hs-customs-tarif/saudi-arabia/
+  /it/hs-customs-tarif/saudi-arabia/
+  /pt/hs-customs-tarif/saudi-arabia/
+  /ru/hs-customs-tarif/saudi-arabia/
+  /si/hs-customs-tarif/saudi-arabia/
+  /zh/hs-customs-tarif/saudi-arabia/
+
+
+Script sources (24):
+  //www.google.com/recaptcha/api.js?hl=en&amp;render=explicit&amp;onload=recaptchaOnloadCallback
+  /assets/729c68cf/jquery.js
+  /assets/a9f0ed22/yii.js
+  /themes/light/js/jquery.form.min.js
+  /themes/light/js/arcticmodal/jquery.arcticmodal-0.3.min.js
+  /themes/light/js/plugins.js
+  /themes/light/js/scripts.js
+  /themes/light/js/intlTelInput.js
+  /themes/light/js/intlTelInput-jquery.js
+  /themes/light/js/base64.js
+  /themes/light/js/bootstrap.min.js
+  /themes/light/js/utils.js
+  /themes/light/js/jquery.mask.js
+  /themes/light/js/js.cookie.js
+  /themes/light/sweetalert2/sweetalert2.min.js
+  /themes/light/js/jquery.jscrollpane.js
+  /themes/light/js/jquery.mousewheel.js
+  /themes/light/js/mwheelIntent.js
+  /themes/light/js/lx_tools.js
+  https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5SJVBZT-kOgg_ynzW5UeJOgTL9UCXHg&amp;libraries=places&amp;language=en
+  /themes/light/js/lx.js
+  /themes/light/js/geo.js
+  /assets/a9f0ed22/yii.validation.js
+  /assets/a9f0ed22/yii.activeForm.js
+
+
+Inline scripts (27):
+
+--- Script 0 (len=389) ---
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5MDGWR2');
+
+--- Script 25 (len=1534) ---
+function recaptchaOnloadCallback() {
+    "use strict";
+    jQuery(".g-recaptcha").each(function () {
+        const reCaptcha = jQuery(this);
+        if (reCaptcha.data("recaptcha-client-id") === undefined) {
+            const recaptchaClientId = grecaptcha.render(reCaptcha.attr("id"), {
+                "callback": function (response) {
+                    if (reCaptcha.data("form-id") !== "") {
+                        jQuery("#" + reCaptcha.data("input-id"), "#" + reCaptcha.data("form-id")).val(response)
+                            .trigger("change");
+                    } else {
+                        jQuery("#" + reCaptcha.data("input-id")).val(response).trigger("change");
+                    }
+
+                    if (reCaptcha.attr("data-callback")) {
+                        eval("(" + reCaptcha.attr("data-callback") + ")(response)");
+                    }
+                },
+                "expired-callback": function () {
+                    if (reCaptcha.data("form-id") !== "") {
+                        jQuery("#" + reCaptcha.data("input-id"), "#" + reCaptcha.data("form-id")).val("");
+                    } else {
+                        jQuery("#" + reCaptcha.data("input-id")).val("");
+                    }
+
+                    if (reCaptcha.attr("data-expired-callback")) {
+                        eval("(" + reCaptcha.attr("data-expired-callback") + ")()");
+                    }
+                },
+            });
+            reCaptcha.data("recaptcha-client-id", recaptchaClientId);
+        }
+    });
+}
+
+--- Script 26 (len=7312) ---
+jQuery(function ($) {
+jQuery('#subscribe-form').yiiActiveForm([{"id":"subscribeform-email","name":"email","container":".field-subscribeform-email","input":"#subscribeform-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, [], value);yii.validation.required(value, messages, {"message":"Enter your email address"});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Email is not a valid email address.","enableIDN":false,"skipOnEmpty":1});}}], {"validateOnSubmit":false});
+jQuery('#feedback-form').yiiActiveForm([{"id":"feedbackform-mess","name":"mess","container":".field-feedbackform-mess","input":"#feedbackform-mess","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Describe your suggestion"});}},{"id":"feedbackform-recaptcha","name":"reCaptcha","container":".field-feedbackform-recaptcha","input":"#feedbackform-recaptcha","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {if (!value) {
+     messages.push("Please verify that you are not a robot.");
+}}}], {"validateOnSubmit":false});
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Username cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}}], {"validateOnSubmit":false});
+jQuery('#signup-form').yiiActiveForm([{"id":"signupform-last_name","name":"last_name","container":".field-signupform-last_name","input":"#signupform-last_name","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Last Name must be a string.","skipOnEmpty":1});}},{"id":"signupform-name","name":"name","container":".field-signupform-name","input":"#signupform-name","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Name must be a string.","skipOnEmpty":1});}},{"id":"si
+
+
+API-related strings (156):
+  //www.google.com/recaptcha/api.js?hl=en&amp;render=explicit&amp;onload=recaptchaOnloadCallback
+  /de/hs-customs-tarif/saudi-arabia/
+  /es/hs-customs-tarif/saudi-arabia/
+  /fr/hs-customs-tarif/saudi-arabia/
+  /hi/hs-customs-tarif/saudi-arabia/
+  /hs-customs-tarif/
+  /hs-customs-tarif/algeria/
+  /hs-customs-tarif/andorra/
+  /hs-customs-tarif/antigua-and-barbuda/
+  /hs-customs-tarif/argentina/
+  /hs-customs-tarif/armenia/
+  /hs-customs-tarif/aruba/
+  /hs-customs-tarif/australia/
+  /hs-customs-tarif/austria/
+  /hs-customs-tarif/azerbaijan/
+  /hs-customs-tarif/bahamas/
+  /hs-customs-tarif/bahrain/
+  /hs-customs-tarif/barbados/
+  /hs-customs-tarif/belarus/
+  /hs-customs-tarif/belgium/
+  /hs-customs-tarif/bolivia/
+  /hs-customs-tarif/bosnia-and-herzegovina/
+  /hs-customs-tarif/botswana/
+  /hs-customs-tarif/brazil/
+  /hs-customs-tarif/bulgaria/
+  /hs-customs-tarif/burundi/
+  /hs-customs-tarif/cameroon/
+  /hs-customs-tarif/canada/
+  /hs-customs-tarif/cayman-islands/
+  /hs-customs-tarif/central-african-republic/
+  /hs-customs-tarif/chad/
+  /hs-customs-tarif/china/
+  /hs-customs-tarif/colombia/
+  /hs-customs-tarif/congo-democratic-republic/
+  /hs-customs-tarif/costa-rica/
+  /hs-customs-tarif/croatia/
+  /hs-customs-tarif/cuba/
+  /hs-customs-tarif/cura-ao/
+  /hs-customs-tarif/cyprus/
+  /hs-customs-tarif/czech-republic/
+  /hs-customs-tarif/denmark/
+  /hs-customs-tarif/dominica/
+  /hs-customs-tarif/dominican-republic/
+  /hs-customs-tarif/ecuador/
+  /hs-customs-tarif/egypt/
+  /hs-customs-tarif/el-salvador/
+  /hs-customs-tarif/equatorial-guinea/
+  /hs-customs-tarif/estonia/
+  /hs-customs-tarif/finland/
+  /hs-customs-tarif/france/
+  /hs-customs-tarif/gabon/
+  /hs-customs-tarif/georgia/
+  /hs-customs-tarif/germany/
+  /hs-customs-tarif/ghana/
+  /hs-customs-tarif/greece/
+  /hs-customs-tarif/grenada/
+  /hs-customs-tarif/guadeloupe/
+  /hs-customs-tarif/guatemala/
+  /hs-customs-tarif/guinea/
+  /hs-customs-tarif/haiti/
+  /hs-customs-tarif/honduras/
+  /hs-customs-tarif/hong-kong/
+  /hs-customs-tarif/hungary/
+  /hs-customs-tarif/iceland/
+  /hs-customs-tarif/india/
+  /hs-customs-tarif/indonesia/
+  /hs-customs-tarif/iran/
+  /hs-customs-tarif/ireland/
+  /hs-customs-tarif/israel/
+  /hs-customs-tarif/italy/
+  /hs-customs-tarif/jamaica/
+  /hs-customs-tarif/japan/
+  /hs-customs-tarif/kazakhstan/
+  /hs-customs-tarif/kenya/
+  /hs-customs-tarif/kuwait/
+  /hs-customs-tarif/kyrgyzstan/
+  /hs-customs-tarif/latvia/
+  /hs-customs-tarif/lesotho/
+  /hs-customs-tarif/lithuania/
+  /hs-customs-tarif/luxembourg/
+  /hs-customs-tarif/macedonia/
+  /hs-customs-tarif/malaysia/
+  /hs-customs-tarif/mali/
+  /hs-customs-tarif/malta/
+  /hs-customs-tarif/martinique/
+  /hs-customs-tarif/mexico/
+  /hs-customs-tarif/moldova/
+  /hs-customs-tarif/monaco/
+  /hs-customs-tarif/mongolia/
+  /hs-customs-tarif/montenegro/
+  /hs-customs-tarif/namibia/
+  /hs-customs-tarif/netherlands/
+  /hs-customs-tarif/new-zealand/
+  /hs-customs-tarif/nicaragua/
+  /hs-customs-tarif/nigeria/
+  /hs-customs-tarif/oman/
+  /hs-customs-tarif/pakistan/
+  /hs-customs-tarif/panama/
+  /hs-customs-tarif/paraguay/
+  /hs-customs-tarif/peru/
+  /hs-customs-tarif/philippines/
+  /hs-customs-tarif/poland/
+  /hs-customs-tarif/portugal/
+  /hs-customs-tarif/puerto-rico/
+  /hs-customs-tarif/qatar/
+  /hs-customs-tarif/romania/
+  /hs-customs-tarif/russia/
+  /hs-customs-tarif/rwanda/
+  /hs-customs-tarif/saint-kitts-and-nevis/
+  /hs-customs-tarif/saint-lucia/
+  /hs-customs-tarif/saint-vincent-and-the-grenadines/
+  /hs-customs-tarif/san-marino/
+  /hs-customs-tarif/saudi-arabia/
+  /hs-customs-tarif/senegal/
+  /hs-customs-tarif/serbia/
+  /hs-customs-tarif/singapore/
+  /hs-customs-tarif/sint-maarten/
+  /hs-customs-tarif/slovakia/
+  /hs-customs-tarif/slovenia/
+  /hs-customs-tarif/south-africa/
+  /hs-customs-tarif/south-korea/
+  /hs-customs-tarif/spain/
+  /hs-customs-tarif/swaziland/
+  /hs-customs-tarif/sweden/
+  /hs-customs-tarif/syria/
+  /hs-customs-tarif/tajikistan/
+  /hs-customs-tarif/tanzania/
+  /hs-customs-tarif/thailand/
+  /hs-customs-tarif/trinidad-and-tobago/
+  /hs-customs-tarif/tunisia/
+  /hs-customs-tarif/turkey/
+  /hs-customs-tarif/turks-and-caicos-islands/
+  /hs-customs-tarif/uganda/
+  /hs-customs-tarif/ukraine/
+  /hs-customs-tarif/united-arab-emirates/
+  /hs-customs-tarif/uruguay/
+  /hs-customs-tarif/us-virgin-islands/
+  /hs-customs-tarif/usa/
+  /hs-customs-tarif/uzbekistan/
+  /hs-customs-tarif/vietnam/
+  /hs-customs-tarif/zimbabwe/
+  /it/hs-customs-tarif/saudi-arabia/
+  /pt/hs-customs-tarif/saudi-arabia/
+  /ru/hs-customs-tarif/saudi-arabia/
+  /si/hs-customs-tarif/saudi-arabia/
+  /zh/hs-customs-tarif/saudi-arabia/
+  >
+            <h1>Evaluate the value of your shipment in an instant</h1>
+            <p>The calculation includes customs clearance, cleaning, excise taxes, VAT, customs tariffs, insurance</p>
+        </div>
+        <form class=
+  >
+        <title>HS codes and customs tariffs Saudi Arabia. Current VAT rates and customs clearance.</title>
+    <meta name=
+  ></i> <span>Select a country to explore HS codes and customs tariffs</span>
+            </div>
+        </div>
+                <div class=
+  HS codes, customs tariff and VAT rates. Up-to-date information of customs regulators.
+  hs codes Saudi Arabia, VAT Saudi Arabia, customs tariff Saudi Arabia, customs clearance Saudi Arabia
+  https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5SJVBZT-kOgg_ynzW5UeJOgTL9UCXHg&amp;libraries=places&amp;language=en
+  icon-tarif
+
+
+Vue markers: 2
+React markers: 0
+
+Relevant element ids/classes (3):
+  icon-tarif
+  section-estimate
+
+
+Embedded JSON blocks: 0
+
+
+Context around 'section' (at pos 56337):
+       </div>
+                <div class="tnved">
+            <input type="hidden" name="country" value="">
+            <div id="jstree-part" class="hidden"></div>
+        </div>
+    </div>
+
+</div>
+
+<section class="section-estimate">
+    <div class="top-bg"></div>
+    <div class="bottom-bg"></div>
+    <div class="content-box">
+        <div class="estimate-title">
+            <h1>Evaluate the value of your shipment in an instant</h1>
+            <p>The calculation includes customs clearance, cleaning, excise taxes, VAT, customs tariffs, insurance</p>
+        </div>
+        <form class="enter_fix" action="/calculation/index" method="get">
+            <div class="form-estimate">
+               

@@ -1,0 +1,45 @@
+['Company Name', 'Products name', 'Category', 'Contact ', 'Mail id', 'Website URL']
+
+['Abbar & Sons Food Co. Ltd', 'Pulses/ Grains / Cereals / FloursPrivate LabelCondiments & SaucesDairyDry GoodsRiceCanned ProductsMilkCream & Cream Products', 'world food', '+966 12 648 0888', 'info@abbarfoods.com', 'https://abbarfoods.com/']
+
+['Abdulrahman & Mohammed A. Aziz Al Shalan Co', None, 'rice ,pulses and grains', None, None, 'https://www.alshalan.com/en']
+
+['Abuljadayel Beverages INC', 'beverages', 'BeveragesJuices & NectarsInstant BeveragesEnergy DrinksCarbonated Soft DrinksBottled Water', '\xa0(+966)(2)608.1191', None, 'http://www.ab.com.sa/']
+
+['Age Well Company', 'snacks ,beverages', 'BeveragesJuices & Nectars', '+966 53 931 3222', '\xa0\u200e\u200epartners@agewellco.com', 'https://www.agewellco.com/']
+
+['Ahmad A. Abed Trading Company (BakeMate)', 'Bakery, Cakes & DessertsCondiments & SaucesCakes / DessertBaking SuppliesBaked Goods', 'Power Brands-DWTC', None, None, 'https://www.bakemate.net/']
+
+['Ahmed Mohamed Saleh Baeshen & Co', 'BeveragesFree-From ProductsSugar-free ProductsTeaIced Tea', 'tea', None, 'info@baeshen.com', 'https://baeshen.com/contacts/']
+
+['Al Amoudi Group & Partners Company', 'Vegetable & Animal Oils & FatsBakery, Cakes & DessertsDairyFree-From ProductsOilDairy-free ProductsCheeseButterBaking Supplies', None, 967000000000, 'not available', 'https://alamoudigroup.com.sa/index.php/en']
+
+['AL DAYFE DATES FACTORY', 'Halal and Kosher FoodBakery, Cakes & DessertsDry GoodsChilled & Fresh FoodDates & Date Palm ProductsDried FruitsFresh Fruits & VegetablesCakes / Dessert', 'Snacks', 966533000000, 'logistic@aldayfe.com', 'https://aldayfe-foods.com/']
+
+['Al Faris Food Industries Ltd', 'Vegetable & Animal Oils & FatsSpreads, Honey & JamsPrivate LabelFrozen FoodDry GoodsDairyCondiments & SaucesChilled & Fresh FoodOlive OilOilAgri-oilFrozen Dairy ProductsSpices & SeasoningsCanned ProductsDried Milk ProductsCream & Cream ProductsCheeseButterEggs & Egg Products', 'Dry Goods', '\xa0+966 11 265 3443', 'info@alfarisfoods.com', 'https://baidar.com/contact-us/']
+
+['AL JAZIRA FOOD PROCESSING', 'Bakery, Cakes & DessertsCakes / DessertBaked Goods', 'Baked goods', '+966 9200 01857', 'not available', 'https://www.gandour.com/contact-us']
+
+['Al Jouf Agricultural Development Company', 'honey,olive products,fruits and vegetables', 'Oils,fruits and vegitables', 966146000000, 'info@aljouf.com.sa', 'https://aljouf.com.sa/']
+
+['Al Khair Trading Company Ltd', 'Pulses/ Grains / Cereals / FloursDry GoodsDairyCoffee BeansCanned ProductsDried Milk ProductsAlternative Milk Products', 'Dry Goods', 920000996, 'info@alkhair.sa', 'https://www.alkhair.sa/']
+
+['AL RAFAYA DATES FARM FACTORY', 'date,date molasses,date paste', 'Date products', 967000000000, 'radco@alrafaya.com.sa', 'https://alrafaya.com.sa/']
+
+['Al Rai Food Industries', 'BeveragesDairyMilkIce CreamCream & Cream ProductsJuices & NectarsCoffee', 'Beverages', 135975444, 'alrai@alrai.com.sa', 'https://alraifood.com/en/contact-us/']
+
+['AL-Ahmadiya Dates', 'Spreads, Honey & JamsSnacksOrganic ProductsHalal and Kosher FoodFortified Foods & Health ProductsDry GoodsChilled & Fresh FoodNutsHealthy snacksDried Fruit & VegetablesHealth & Wellness ProductsFortified & Functional ProductsDried FruitsFresh Fruits & Vegetables', 'SnacksOrganic Products', 966558000000, 'info@alahmadiha.com.sa', 'https://alahmadiha.com.sa/']
+
+['AL-HASA AUTOMATIC BAKERY CO', 'SnacksBakery, Cakes & DessertsFrozen FoodPopcornFrozen Baked GoodsCakes / DessertBaked Goods', 'Bakery, Cakes & Desserts', '\xa0800 306 1111', 'S.aljughaiman@ah-bakery.com', 'https://fuchsia.com.sa/']
+
+['Al-Noman Brothers Company Factory', 'BeveragesTeaInstant hot beveragesInstant BeveragesIced TeaCoffee', 'Instant hot beverages', 920003735, 'not available', 'https://alnoman1.com/']
+
+['Al-Turaif International Investment Company', 'maamoul', 'Frozen Food', 920023333, 'turaifco@hotmail.com', 'https://alturaif-iic.com/']
+
+['Alaseel Dates', 'SnacksDates & Date Palm Products', 'SnacksOrganic Products', 966920000000, 'not available', 'https://alaseeldates.com/en/home-2/']
+
+
+Total rows: 132
+Total cols: 6
+Unique companies: 130
+Companies: ['AL JAZIRA FOOD PROCESSING', 'Tasali alsaudi Food Industries Co', 'Retaj Alghala Factory', 'Basateen Foods Saudi Arabia Co. Ltd', 'National Food Industries Co Ltd (NFIC', 'National Factory for foods', 'Basqat Al Qassim Trading Company', 'KHALID DEREA AL DEREA & HIS PARTNER CO.LTD', 'SAUDI COFFEE COMPANY', 'wadi fatma factory for foods & milk', 'Wardat Almashreq Food Co', 'Saudia Dairy and Food stuff Company (SADAFCO', 'ENTAJ ALNAKHEEL FOR INDUSTRY CO', 'EFAD Food Additives Factory', 'AlBawasiq company for Food Industries', 'Sanyeh Trading Company', 'Ahmad A. Abed Trading Company (BakeMate)', 'COMPANY TAFFAWET LTD', 'Al Jouf Agricultural Development Company', 'Qutoof Altmor Dates Factory']

@@ -1,0 +1,23 @@
+Test 1 (root=4, parent=0_4): status=200, content_type=application/json; charset=UTF-8
+Body (first 1000): [{"id":884,"text":"<span class=\"code\">16</span> <span class=\"value\">Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof</span>","children":true,"data":{"country":null,"country_code":"SA","code":"16"},"root":false},{"id":932,"text":"<span class=\"code\">17</span> <span class=\"value\">Sugars and sugar confectionery</span>","children":true,"data":{"country":null,"country_code":"SA","code":"17"},"root":false},{"id":954,"text":"<span class=\"code\">18</span> <span class=\"value\">Cocoa and cocoa preparations</span>","children":true,"data":{"country":null,"country_code":"SA","code":"18"},"root":false},{"id":972,"text":"<span class=\"code\">19</span> <span class=\"value\">Preparations of cereals, flour, starch or milk; pastrycooks' products</span>","children":true,"data":{"country":null,"country_code":"SA","code":"19"},"root":false},{"id":997,"text":"<span class=\"code\">20</span> <span class=\"value\">Preparations of vegetables, fruit, nuts or other 
+
+Parsed 9 items
+  884: 16Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof (children=True, code=16)
+  932: 17Sugars and sugar confectionery (children=True, code=17)
+  954: 18Cocoa and cocoa preparations (children=True, code=18)
+  972: 19Preparations of cereals, flour, starch or milk; pastrycooks' products (children=True, code=19)
+  997: 20Preparations of vegetables, fruit, nuts or other parts of plants (children=True, code=20)
+
+--- Level 3: Drilling into 884 ---
+Status: 500
+Body (first 1000): <pre>Exception (Database Exception) &#039;yii\db\Exception&#039; with message &#039;SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: integer = boolean
+LINE 1: ..._id IS NULL) FROM &quot;tnved_ex_dev&quot; &quot;t&quot; WHERE t.root = False an...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+The SQL being executed was: SELECT &quot;t&quot;.&quot;id&quot;, &quot;t&quot;.&quot;name&quot;, &quot;t&quot;.&quot;code&quot;, (SELECT count(*) AS &quot;children&quot; FROM &quot;tnved_ex_dev&quot; &quot;x&quot; WHERE x.parent_id = t.id and x.country_id is NULL and x.union_id IS NULL) FROM &quot;tnved_ex_dev&quot; &quot;t&quot; WHERE t.root = False and t.country_id IS NULL and t.union_id IS NULL ORDER BY &quot;t&quot;.&quot;id&quot;&#039; 
+
+in /var/www/taxprice_org_usr/data/www/core/vendor/yiisoft/yii2/db/Schema.php:678
+
+Stack trace:
+#0 /var/www/taxprice_
+Could not parse level 3 response as JSON

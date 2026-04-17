@@ -1,0 +1,25 @@
+Chapter 1602 children: status=200
+Got 0 items
+
+
+=== Testing detail page URLs ===
+https://taxprice.org/hs-customs-tarif/SA/1601/ -> 200
+  Content: Customs tariff for HS code 1601 - . Customs clearance, VAT, freight charges. Authorization Instant calculation of costs for foreign trade activities Menu Menu Transportation calculation More References Handbooks Customs tariffs and HS codes World seaports Blog Website widget Choose the language English Deutsch Français Italiano Português Español Slovenščina Русский हिन्दी 中文 Home HS codes by country HS codes HS code info 1601 HS codes HS code info 1601 HS code position 16 Meat, fish or crustacea
+https://taxprice.org/hs-customs-tarif/sa/1601/ -> 200
+  Content: Customs tariff for HS code 1601 - . Customs clearance, VAT, freight charges. Authorization Instant calculation of costs for foreign trade activities Menu Menu Transportation calculation More References Handbooks Customs tariffs and HS codes World seaports Blog Website widget Choose the language English Deutsch Français Italiano Português Español Slovenščina Русский हिन्दी 中文 Home HS codes by country HS codes HS code info 1601 HS codes HS code info 1601 HS code position 16 Meat, fish or crustacea
+https://taxprice.org/hs-customs-tarif/saudi-arabia/160100/ -> 404
+
+
+=== Beverages Chapter ===
+Got 9 items
+  id=1083, code=2201, desc=Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow, children=True
+  id=1086, code=2202, desc=Waters, including mineral and aerated waters, containing added sugar or sweetening matter, flavoured; other non-alcoholic beverages, not including fruit or vegetable juices of heading no. 2009, children=True
+  id=1090, code=2203, desc=Beer made from malt, children=True
+  id=1092, code=2204, desc=Wine of fresh grapes, including fortified wines; grape must other than that of heading no. 2009, children=True
+  id=1098, code=2205, desc=Vermouth and other wine of fresh grapes, flavoured with plants or aromatic substances, children=True
+  id=1101, code=2206, desc=Fermented beverages, n.e.c. in chapter 22; (e.g. cider, perry, mead, sake), children=True
+  id=1103, code=2207, desc=Ethyl alcohol, undenatured; of an alcoholic strength by volume of 80% vol. or higher; ethyl alcohol and other spirits, denatured, of any strength, children=True
+  id=1106, code=2208, desc=Ethyl alcohol, undenatured; of an alcoholic strength by volume of less than 80% volume; spirits, liqueurs and other spirituous beverages, children=True
+  id=1114, code=2209, desc=Vinegar and substitutes for vinegar obtained from acetic acid, children=True
+
+  Sub-items: 0

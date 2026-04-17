@@ -1,0 +1,29 @@
+=== Level 2: Section 4 children ===
+Got 9 chapters
+  id=884, code=16, desc=Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof, children=True, root=False
+  id=932, code=17, desc=Sugars and sugar confectionery, children=True, root=False
+  id=954, code=18, desc=Cocoa and cocoa preparations, children=True, root=False
+  id=972, code=19, desc=Preparations of cereals, flour, starch or milk; pastrycooks' products, children=True, root=False
+  id=997, code=20, desc=Preparations of vegetables, fruit, nuts or other parts of plants, children=True, root=False
+  id=1059, code=21, desc=Miscellaneous edible preparations, children=True, root=False
+  id=1082, code=22, desc=Beverages, spirits and vinegar, children=True, root=False
+  id=1116, code=23, desc=Food industries, residues and wastes thereof; prepared animal fodder, children=True, root=False
+  id=1149, code=24, desc=Tobacco and manufactured tobacco substitutes, children=True, root=False
+
+=== Level 3: Chapter 884 children (root=0) ===
+Status: 200
+Got 5 items
+  id=885, code=1601, desc=Sausages and similar products of meat, meat offal or blood; food preparations based on these products, children=True, root=False
+  id=887, code=1602, desc=Prepared or preserved meat, meat offal or blood, children=True, root=False
+  id=898, code=1603, desc=Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates, children=True, root=False
+  id=900, code=1604, desc=Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs, children=True, root=False
+  id=913, code=1605, desc=Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved, children=True, root=False
+
+=== Level 4: 885 children (root=0) ===
+Status: 200
+Got 0 items
+
+
+=== Testing detail page ===
+Detail URL: https://taxprice.org/hs-customs-tarif/saudi-arabia/1701/
+Status: 404
